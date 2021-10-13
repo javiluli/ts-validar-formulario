@@ -1,0 +1,60 @@
+@import './mixin';
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// margin bottom class
+@include crementalClass(3, '.mb', 'margin-bottom');
+// margin left class
+@include crementalClass(3, '.ml', 'margin-left');
+// margin right class
+@include crementalClass(3, '.mr', 'margin-right');
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.f {
+  &-justify-content-center {
+    justify-content: center;
+  }
+
+  &-justify-content-sb {
+    justify-content: space-between;
+  }
+
+  &-align-items-center {
+    align-items: center;
+  }
+}
+
+.grid {
+  display: grid;
+
+  &-gap-05 {
+    grid-gap: 0.5em;
+  }
+  &-gap-1 {
+    grid-gap: 1em;
+  }
+  &-gap-2 {
+    grid-gap: 2em;
+  }
+}
+
+// columnas en una grid
+@for $i from 1 through 3 {
+  .col-#{$i} {
+    grid-template-columns: repeat($i, 1fr);
+  }
+}

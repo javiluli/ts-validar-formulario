@@ -1,0 +1,13 @@
+declare const boxErrores: HTMLDivElement;
+declare const iptNombre: HTMLInputElement;
+declare const iptApellidos: HTMLInputElement;
+declare const iptDni: HTMLInputElement;
+declare const iptFechaNacimiento: HTMLInputElement;
+declare const iptCp: HTMLInputElement;
+declare const iptProvincia: HTMLInputElement;
+declare const estadoCivil: HTMLSelectElement;
+declare const checkCondiciones: HTMLInputElement;
+declare function getRadioButtonValue(element: string): string;
+declare function getMultiselectValues(element: string): string[];
+declare function reiniciarMensagesError(): void;
+declare function main(): void;

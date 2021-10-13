@@ -1,0 +1,30 @@
+:root {
+  --ff: Arial, Helvetica, sans-serif;
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.25rem;
+  --fs-normal: 1rem;
+  --fs-small: 0.875rem;
+  --fs-smaller: 0.75rem;
+
+  --body-line-height: 1.6;
+
+  --text-color: hsl(0, 0%, 100%);
+  --text-color-dark: hsl(0, 0%, 15%);
+
+  --color-primario: hsl(215, 90%, 50%);
+  --color-primario-trans: hsla(215, 90%, 50%, 0.4);
+
+  --bg-color: hsl(0, 0%, 100%);
+  --bg-color-alt: hsl(0, 0%, 100%);
+
+  --borde: 2px solid var(--color-primario);
+  --borde-normal: 2px solid hsl(0, 0%, 90%);
+  --borde-normal-alt: 2px solid var(--color-primario);
+
+  --normal-padding: 0.5em;
+  --normal-border-radius: 0.25em;
+
+  --transicion: 0.2s all ease;
+}

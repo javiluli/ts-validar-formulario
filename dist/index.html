@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de usuario<</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div id="_NEXT">
+      <header class="header container-main">
+        <h1 class="tittle">Registro de usuario</h1>
+      </header>
+
+      <main class="container mb-3">
+        <form action="" class="grid f-justify-content-center">
+          <div id="errores" class="box-errores mb-2" style="display: none"></div>
+
+          <!-- ##### Nombre  y apellidos ##### -->
+          <div class="grid col-2 grid-gap-1">
+            <label for="iptNombre" class="box-label mb-2">
+              <input type="text" name="nombre" id="iptNombre" placeholder="&nbsp;" required />
+              <span class="box-label__ph">Nombre</span>
+            </label>
+
+            <label for="iptApellidos" class="box-label mb-2">
+              <input type="text" name="apellidos" id="iptApellidos" placeholder="&nbsp;" required />
+              <span class="box-label__ph">Apellidos</span>
+            </label>
+          </div>
+
+          <div class="grid col-2 grid-gap-1">
+            <!-- ##### DNI ##### -->
+            <label for="iptDni" class="box-label mb-2">
+              <input type="text" name="dni" id="iptDni" placeholder="&nbsp;" required />
+              <span class="box-label__ph">DNI</span>
+            </label>
+
+            <!-- ##### Fecha de nacimiento ##### -->
+            <label for="iptFechaNacimiento" class="box-label mb-2">
+              <input type="date" name="fechaNacimiento" id="iptFechaNacimiento" value="2000-01-01" required />
+              <span class="box-label__ph">Fecha de nacimiento</span>
+            </label>
+          </div>
+
+          <!-- ##### Genero del usuario ##### -->
+          <div class="mb-2">
+            <p>Seleccione su género</p>
+            <div class="flex f-justify-content-sb">
+              <label class="flex f-align-items-center grid-gap-05">
+                <input type="radio" value="hombre" name="genero" id="gHombre" required />
+                <span for="genero_hombre">Hombre</span>
+              </label>
+
+              <label class="flex f-align-items-center grid-gap-05">
+                <input type="radio" value="mujer" name="genero" id="gMujer" required />
+                <span for="genero_mujer">Mujer</span>
+              </label>
+
+              <label class="flex f-align-items-center grid-gap-05">
+                <input type="radio" value="indefinido" name="genero" id="gIndefinido" checked="checked" required />
+                <span for="gIndefinido">No definir</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="file-area mb-1">
+            <label for="imgPerfil">Subir foto de perfil</label>
+            <input type="file" name="imgPerfil" id="imgPerfil" required="required" />
+            <div class="file-texts">
+              <div class="success">Todo OK!</div>
+              <div class="default">Seleccione un fichero.</div>
+            </div>
+          </div>
+
+          <!-- ##### Intereses ##### -->
+          <div class="mb-1">
+            <label for="intereses">Seleccione sus intereses</label>
+            <select name="slctIntereses" id="slctIntereses" class="intereses" multiple required>
+              <option value="arte">Arte</option>
+              <option value="literatura">Literatura</option>
+              <option value="musica">Musica</option>
+              <option value="cocina">Cocina</option>
+              <option value="mecanica">Mecanica</option>
+              <option value="informatica">Informatica</option>
+            </select>
+          </div>
+
+          <!-- ##### Codigo postal y Provincia ##### -->
+          <div class="grid col-2 grid-gap-1">
+            <label for="iptCp" class="box-label mb-2">
+              <input type="text" name="cp" id="iptCp" placeholder="&nbsp;" required />
+              <span class="box-label__ph">Codigo postal</span>
+            </label>
+
+            <label for="iptProvincia" class="box-label mb-2">
+              <input type="text" name="provincia" id="iptProvincia" placeholder="&nbsp;" required readonly />
+              <span class="box-label__ph">Provincia</span>
+            </label>
+          </div>
+
+          <!-- ##### Estado civil ##### -->
+          <div class="mb-1">
+            <label for="estadoCivil">Seleccione su estado civil</label>
+            <select name="estadoCivil" id="estadoCivil" class="estadoCivil" required>
+              <option value="soltero">Soltero</option>
+              <option value="casado">Sasado</option>
+              <option value="divorciado">Divorciado</option>
+              <option value="viudo">Viudo</option>
+            </select>
+          </div>
+
+          <!-- ##### Terminos y condiciones ##### -->
+          <div class="box-input__checkbox mb-1">
+            <label for="condiciones">Aceptar <a href="#">condiciones</a>.</label>
+            <input type="checkbox" name="condiciones" id="checkCondiciones" required />
+          </div>
+
+          <!-- ##### Botones de reseteo del formulario y enviar informacion ##### -->
+          <div class="flex grid-gap-1">
+            <!-- Reseteo del formulario -->
+            <input type="reset" value="Reiniciar" id="reiniciar" />
+            <!-- Enviar formulario -->
+            <input type="submit" value="Enviar" id="enviar" class="alerta-disabled" required />
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <!-- <script src="js/script.js"></script> -->
+    <!-- <script src="js/validar.js"></script> -->
+    <script>
+      var exports = {}
+    </script>
+    <script src="js/validar.js"></script>
+    <script src="js/Errores.js"></script>
+    <script src="js/Usuario.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

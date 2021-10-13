@@ -1,0 +1,31 @@
+declare class Usuario {
+    private _nombre;
+    private _apellidos;
+    private _dni;
+    private _fechaNacimiento;
+    private _sexo;
+    private _intereses;
+    private _cp;
+    private _provincia;
+    private _estadoCivil;
+    constructor();
+    constructor(obj: Usuario);
+    get nombre(): string;
+    set nombre(v: string);
+    get apellidos(): string;
+    set apellidos(v: string);
+    get dni(): string;
+    set dni(v: string);
+    get fechaNacimiento(): Date;
+    set fechaNacimiento(v: Date);
+    get sexo(): string;
+    set sexo(v: string);
+    get intereses(): Array<string>;
+    set intereses(v: Array<string>);
+    get cp(): string;
+    set cp(v: string);
+    get provincia(): string;
+    set provincia(v: string);
+    get situacionActual(): string;
+    set estadoCivil(v: string);
+}

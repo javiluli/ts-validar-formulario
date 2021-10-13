@@ -1,0 +1,7 @@
+@mixin crementalClass($max, $class, $property) {
+  @for $i from 1 through $max {
+    #{$class}-#{$i} {
+      #{$property}: #{$i}em;
+    }
+  }
+}

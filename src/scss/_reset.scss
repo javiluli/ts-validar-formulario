@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--dark-color-text);
+  font-size: 1.25rem;
+}
+
+body {
+  counter-reset: section;
+  line-height: var(--body-line-height);
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+p,
+a,
+li {
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 0.25em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primario);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+}
+
+// Emboltura del formulario principal
+input,
+button {
+  width: 100%;
+  height: 2em;
+  font-size: var(--fs-smaller);
+
+  &:after {
+    transition: inherit;
+  }
+}
+
+select {
+  width: 100%;
+  height: 2.5em;
+  font-size: var(--fs-small);
+  border: var(--borde-normal);
+  border-radius: 0.25em;
+  transition: 0.2s ease-in-out;
+
+  &:focus {
+    border: var(--borde-normal-alt);
+    box-shadow: 0 0 20px var(--color-primario-trans);
+  }
+
+  & > option {
+    padding: var(--normal-padding);
+    background-color: hsl(0, 0%, 100%);
+
+    &:nth-child(odd) {
+      background-color: hsl(0, 0%, 95%);
+    }
+  }
+}
+
+select,
+input[type='radio'],
+input[type='checkbox'],
+input[type='reset'],
+input[type='submit'],
+input[type='file'] {
+  cursor: pointer;
+}

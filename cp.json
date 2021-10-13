@@ -1,0 +1,210 @@
+[
+  {
+    "provincia": "Álava",
+    "cp": "01"
+  },
+  {
+    "provincia": "Albacete",
+    "cp": "02"
+  },
+  {
+    "provincia": "Alicante",
+    "cp": "03"
+  },
+  {
+    "provincia": "Almería",
+    "cp": "04"
+  },
+  {
+    "provincia": "Ávila",
+    "cp": "05"
+  },
+  {
+    "provincia": "Badajoz",
+    "cp": "06"
+  },
+  {
+    "provincia": "Baleares",
+    "cp": "07"
+  },
+  {
+    "provincia": "Barcelona",
+    "cp": "08"
+  },
+  {
+    "provincia": "Burgos",
+    "cp": "09"
+  },
+  {
+    "provincia": "Cáceres",
+    "cp": "10"
+  },
+  {
+    "provincia": "Cádiz",
+    "cp": "11"
+  },
+  {
+    "provincia": "Castellón",
+    "cp": "12"
+  },
+  {
+    "provincia": "Ciudad Real",
+    "cp": "13"
+  },
+  {
+    "provincia": "Córdoba",
+    "cp": "14"
+  },
+  {
+    "provincia": "La Coruña",
+    "cp": "15"
+  },
+  {
+    "provincia": "Cuenca",
+    "cp": "16"
+  },
+  {
+    "provincia": "Gerona/Girona",
+    "cp": "17"
+  },
+  {
+    "provincia": "Granada",
+    "cp": "18"
+  },
+  {
+    "provincia": "Guadalajara",
+    "cp": "19"
+  },
+  {
+    "provincia": "Guipúzcoa",
+    "cp": "20"
+  },
+  {
+    "provincia": "Huelva",
+    "cp": "21"
+  },
+  {
+    "provincia": "Huesca",
+    "cp": "22"
+  },
+  {
+    "provincia": "Jaén",
+    "cp": "23"
+  },
+  {
+    "provincia": "León",
+    "cp": "24"
+  },
+  {
+    "provincia": "Lérida/Lleida",
+    "cp": "25"
+  },
+  {
+    "provincia": "La Rioja",
+    "cp": "26"
+  },
+  {
+    "provincia": "Lugo",
+    "cp": "27"
+  },
+  {
+    "provincia": "Madrid",
+    "cp": "28"
+  },
+  {
+    "provincia": "Málaga",
+    "cp": "29"
+  },
+  {
+    "provincia": "Murcia",
+    "cp": "30"
+  },
+  {
+    "provincia": "Navarra",
+    "cp": "31"
+  },
+  {
+    "provincia": "Orense",
+    "cp": "32"
+  },
+  {
+    "provincia": "Asturias",
+    "cp": "33"
+  },
+  {
+    "provincia": "Palencia",
+    "cp": "34"
+  },
+  {
+    "provincia": "Las Palmas",
+    "cp": "35"
+  },
+  {
+    "provincia": "Pontevedra",
+    "cp": "36"
+  },
+  {
+    "provincia": "Salamanca",
+    "cp": "37"
+  },
+  {
+    "provincia": "Santa Cruz de Tenerife",
+    "cp": "38"
+  },
+  {
+    "provincia": "Cantabria",
+    "cp": "39"
+  },
+  {
+    "provincia": "Segovia",
+    "cp": "40"
+  },
+  {
+    "provincia": "Sevilla",
+    "cp": "41"
+  },
+  {
+    "provincia": "Soria",
+    "cp": "42"
+  },
+  {
+    "provincia": "Tarragona",
+    "cp": "43"
+  },
+  {
+    "provincia": "Teruel",
+    "cp": "44"
+  },
+  {
+    "provincia": "Toledo",
+    "cp": "45"
+  },
+  {
+    "provincia": "Valencia",
+    "cp": "46"
+  },
+  {
+    "provincia": "Valladolid",
+    "cp": "47"
+  },
+  {
+    "provincia": "Vizcaya",
+    "cp": "48"
+  },
+  {
+    "provincia": "Zamora",
+    "cp": "49"
+  },
+  {
+    "provincia": "Zaragoza",
+    "cp": "50"
+  },
+  {
+    "provincia": "Ceuta",
+    "cp": "51"
+  },
+  {
+    "provincia": "Melill",
+    "cp": "52"
+  }
+]
